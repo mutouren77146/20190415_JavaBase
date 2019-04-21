@@ -16,13 +16,11 @@ public class while_test {
          }
          if(sum1>sum2){
              System.out.println("奇数的累加和大");
-             System.out.println(sum1);
-
          }
          else{
              System.out.println("偶数的累加和大");
-             System.out.println(sum2);
-
          }
+         System.out.println("奇数之和是：" +sum1);
+         System.out.println("偶数之和是："+sum2);
      }
 }
